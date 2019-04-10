@@ -33,6 +33,7 @@ class Robot: public Bergerak
             setVMaju(0.1);
         } else {
             setVMaju(0);
+            cout<<"Beep"<<endl;
         }
         go(t);
         stop();
@@ -50,6 +51,7 @@ class Robot: public Bergerak
             setVPutar(7.5);
         } else {
             setVPutar(0);
+            cout<<"Beep"<<endl;
         }
         go(t);
         stop();
