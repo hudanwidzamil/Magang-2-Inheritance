@@ -36,6 +36,7 @@ class Robot: public Bergerak
         }
         go(t);
         stop();
+        baterai-=0.03*t;
     }
 
     //Berputar di tempat selama t detik, kecepatan putar berdasar baterai
@@ -52,6 +53,7 @@ class Robot: public Bergerak
         }
         go(t);
         stop();
+        baterai-=0.03*t;
     }
 
     ////////////////////Fungsi gerak end/////////////////////////////////
